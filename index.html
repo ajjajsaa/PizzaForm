@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akram's Pizza</title>
+    <link rel="shortcut icon" href="pizzaicon.png" type="image/x-icon">
+</head>
+<body>
+    <!--Header  -->
+    <header>
+        <h1>Form Pemesanan Pizza</h1>
+        <p>Pizza lezat, cepat sampai kerumah 🍕</p>
+        <nav>
+            <a href="#menu">Lihat Menu</a>|
+            <a href="#order">Pesan Sekarang</a>|
+            <a href="#kontak">Kontak Kami</a>
+        </nav>
+    </header>
+
+    <!-- Section Promo -->
+     <section>
+        <h2>Promo Hari Ini</h2>
+        <img src="Promo.jpe" alt="Promo Pizza" width="300">
+        <p><mark>Diskon 30%</mark>untuk semua pizzaukuran besar!</p>
+
+        <ul>
+            <li>Rotinya empuk</li>
+            <li>Harga terjangkau</li>
+            <li>Kaya akan rempah</li>
+        </ul>
+     </section>
+
+     <!-- Section Menu -->
+      <section id="menu">
+        <h2>Menu Pizza Kami</h2>
+        <table border="1">
+            <tr>
+                <th>Nama</th>
+                <th>Ukuran</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <td>Pizza Mozarella</td>
+                <td>Large.</td>
+                <td>Rp110.000</td>
+            </tr>
+            <tr>
+                <td>Pizza Mozarella</td>
+                <td>Medium.</td>
+                <td>Rp90.000</td>
+            </tr>
+            <tr>
+                <td>Pizza Mushroom</td>
+                <td>Large.</td>
+                <td>Rp100.000</td>
+            </tr>
+            <tr>
+                <td>Pizza Mushroom</td>
+                <td>Large.</td>
+                <td>Rp80.000</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Section Order -->
+     <section id="order">
+        <h2>Pesan disini</h2>
+        <form action="https://formspree.io/f/maeworaq" method="post">
+            <label for="pemesan">Nama Pemesan:</label><br>
+            <input id="pemesan" type="text" name="pemesan"><br><br>
+
+            <label for="email">Email Pemesan:</label><br>
+            <input id="email" type="email" name="email"><br><br>
+
+            <label for="ukuran">Size Pizza</label><br>
+            <select name="ukuran" id="ukuran">
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+
+            <p>Pilih Topping</p>
+            <input type="checkbox" id="keju" name="topping" value="keju"> <label for="keju">Keju</label>
+            <input type="checkbox" id="sosis" name="topping" value="sosis"> <label for="sosis">Sosis</label>
+            <input type="checkbox" id="jamur" name="topping" value="jamur"> <label for="jamur">Jamur</label>
+
+            <p>Jenis Saus:</p>
+            <input type="radio" name="saus" id="Saus BBQ" value="SausBBQ"><label for="Saus BBQ">Saus BBQ</label>
+            <input type="radio" name="saus" id="Saus Hot Lava" value="Saus Hot Lava"><label for="Saus Hot Lava">Saus Saus Hot Lava</label>
+            <input type="radio" name="saus" id="Saus Tomat" value="Saus Tomat"><label for="Saus Tomat">Saus Saus Tomat</label>
+
+            <br><br><label for="catatan">Catatan:</label><br>
+            <textarea cols="50"rows="5" name="catatan" id="catatan"></textarea>
+
+            <br><br><button type="submit">Pesan Sekarang</button>
+            <button type="reset">Reset</button>
+
+        </form>
+     </section>
+
+     <!-- Section Kontak -->
+      <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <p>📍 Jl, sukadamai, kab Bogor, Jawa Barat</p>
+        <p>📞 <a target="blank" href="https://wa.me/628119201811?text=Halo%20Saya%20Mau%20Pesan%20Pizza">+62811-9201-811</a></p>
+        <p>✉️ Email to:<a href="mailto:akrammar0108@gmail.com">akramammar0108@gmail.com</a></p>
+      </section>
+      <!-- Footer -->
+       <footer>
+        <hr>
+        <p> <small>&copy; 2026 pizza mantap. All rights reserved</small></p>
+       </footer>
+
+</body>
+</html>
