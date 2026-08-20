@@ -1,0 +1,164 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sekuya&display=swap');
+
+/* Global Style*/
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.judul {
+    font-family: "Sekuya", system-ui;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: orangered;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+header p{
+    font-style: italic;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* promo style */
+section h2 {
+    color: orangered;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+li {
+    list-style: inside;
+}
+
+/* Menu Style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid orangered;
+    padding: 12px;
+}
+
+th {
+    background-color: lightsalmon;
+}
+
+/* Order Style */
+form {
+    background-color: #fff3e0;
+    box-shadow: 0 0 15px orangered;
+    padding : 10px;
+    border-radius: 15px;
+}
+
+input[type="text"], 
+input[type="email"], 
+select {
+    width: 100%;
+    padding: 8px 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+select:focus {
+    border: 2px solid orangered;
+    outline: none;
+}
+
+.label-form {
+    font-weight: bold;
+}
+
+input[type="checkbox"] label,
+input[type="radio"] label {
+    margin: 10px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+
+button[type="submit"] {
+    background-color: lightgreen;
+    border: 2px solid green;
+    color: green;
+    width: 100%;
+    padding: 8px 4px;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+    background-color: green;
+    color: lightgreen;
+    border: 2px solid lightgreen;
+}
+button[type="reset"] {
+    margin-top: 7px;
+    background-color: lightcoral;
+    border: 2px solid red;
+    color: red;
+    width: 100%;
+    padding: 8px 4px;
+    border-radius: 5px;
+}
+
+button[type="reset"]:hover {
+    cursor: pointer;
+    background-color: red;
+    color: lightcoral;
+    border: 2px solid lightcoral;
+}
+
+#kontak p {
+    border: 2px solid orangered;
+    padding: 7px;
+    width: max-content;
+    margin: 15px auto;
+} 
+
+/* Footer Style */
+footer {
+    background-color: orangered;
+    padding: 10px;
+    color: whitesmoke;
+    margin-top: 40px;
+}
